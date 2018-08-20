@@ -1,3 +1,40 @@
+# y_uvar
+
+`uvar` = `user variable`.  This include provides automated saving and loading of global variables at a per-player level, simply by declaring them with `uvar` instead of `new` (or `static`).
+
+
+[![sampctl](https://shields.southcla.ws/badge/sampctl-y_uvar-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Storage/y_uvar)
+
+## Installation
+
+To install just this one library:
+
+```bash
+sampctl package install YSI-Storage/y_uvar
+```
+
+Include in your code and begin using the library:
+
+```pawn
+#include <YSI-Storage/y_uvar>
+```
+
+## Documentation
+
+* [Quick Start](YSI-Storage/y_uvar/quick-start.md) - One very simple example of getting started with this library.
+* [Features](YSI-Storage/y_uvar/features.md) - More features and examples.
+* [FAQs](YSI-Storage/y_uvar/faqs.md) - Frequently Asked Questions, including errors and solutions.
+* [API](YSI-Storage/y_uvar/api.md) - Full list of all functions and their meaning.
+* [Internal](YSI-Storage/y_uvar/internal.md) - Internal developer documentation for the system.
+
+## Testing
+
+To test, simply run the package:
+
+```bash
+sampctl package run
+```
+
 # YSI
 
 ## General Information
@@ -109,34 +146,4 @@ Libraries that have in-game visible effects.
 * [y_races](https://github.com/YSI-Visual/y_races/blob/dev/YSI-Visual/y_races.md)
 * [y_zonenames](https://github.com/YSI-Visual/y_zonenames/blob/dev/YSI-Visual/y_zonenames.md)
 * [y_zonepulse](https://github.com/YSI-Visual/y_zonepulse/blob/dev/YSI-Visual/y_zonepulse.md)
-
-# y_uvar
-
-[![sampctl](https://shields.southcla.ws/badge/sampctl-y_uvar-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Storage/y_uvar)
-
-## Installation
-
-To install just this one library:
-
-```bash
-sampctl package install YSI-Storage/y_uvar
-```
-
-Include in your code and begin using the library:
-
-```pawn
-#include <YSI-Storage/y_uvar>
-```
-
-## Usage
-
-[Click Here] (YSI-Storage/y_uvar.md)
-
-## Testing
-
-To test, simply run the package:
-
-```bash
-sampctl package run
-```
 
